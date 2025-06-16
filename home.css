@@ -1,0 +1,123 @@
+#head
+{
+    color: rgb(8, 24, 128);
+    font-size: 50px;
+    font-weight: bolder;
+    font-variant: small-caps;
+    box-shadow:  5px 2px 3px;
+    text-shadow: 2px 1px 1px;
+    
+}
+.nav-item
+{
+    font-size: large;
+    font-weight: bold;
+    
+}   
+#head2
+{
+    background-color: aliceblue;
+    border-radius: 10%;
+    box-shadow: rgb(20, 143, 102) 5px 5px 5px;
+    color: rgb(48, 95, 1);
+    font-weight: bold;
+    font-variant: small-caps;
+    text-align: center;
+    text-shadow: 2px 1px 1px;
+}
+body
+{
+    background-image: url(./picx/Screenshot\ From\ 2025-06-16\ 00-03-05.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.bd-placeholder-img 
+{
+    height: 300px;
+    width: 100%;
+}
+#fr1
+{
+    display:flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+} 
+
+#se
+{
+    
+    height: 200px;
+    width: 25%;
+    background-color: rgb(195, 223, 226);
+    border-radius: 10%;
+    text-align: center;
+    box-shadow: 3px 3px 10px yellowgreen;
+    justify-content: center;
+    align-items: center;
+    
+
+     
+}
+#our1
+{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+#sub
+{
+    background-color: blueviolet;
+    height: 200px;
+    width: 25%;
+    border-radius: 10%;
+    box-shadow: 2px 2px 2px;
+}
+.our2
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 10px;
+}
+#sub2
+{
+    background-color: blueviolet;
+    height: 600px;
+    width: 25%;
+    border-radius: 2%;
+    box-shadow: 2px 2px 2px;
+    flex-wrap: wrap;
+    color: aliceblue;
+}
+#ima
+{
+   height: 200px;
+    width: 100%; 
+    border-radius: 20%;
+}
+
+
+
+#abu
+{
+    color: aliceblue;
+    font-size: larger;
+    font-weight: bolder;
+    font-variant: small-caps;
+}
+
+
+#prod
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#btn
+{
+    background-color: darkolivegreen;
+    width: 200px;
+}
