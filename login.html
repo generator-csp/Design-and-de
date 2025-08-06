@@ -107,11 +107,11 @@ main
 
     <main>
         <div class="contain">
-        <form action="" class="signup-form">
+        <form action="submit" method="POST" class="signup-form">
             <h2>Login</h2>
             <!-- <input type="text " placeholder="Full Name" required/> -->
-            <input type="email" placeholder="Email Address" required/>
-            <input type="password" placeholder="Password" required/>
+            <input type="email" name="email" id="email" placeholder="Email Address" required/>
+            <input type="password" name="password" id="password" placeholder="Password" required/>
             <!-- <input type="password" placeholder="Confirm password" required/> -->
             <button type="submit">Login</button>
             <!-- <p>Already have an account? <a href="./login.html">Log in</a> </p> -->
@@ -135,3 +135,4 @@ main
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
 </body>
 </html>
+
